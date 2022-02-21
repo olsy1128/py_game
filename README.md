@@ -1,2 +1,2 @@
-# python
+# py_game
 
