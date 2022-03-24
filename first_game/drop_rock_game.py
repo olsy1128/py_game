@@ -18,10 +18,10 @@ clock = pygame.time.Clock()
 
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도,  폰트 등)
 # 배경 만들기
-background = pygame.image.load("C:/#first_project/인프런_게임만들기/pygame_basic/back_ground.png")
+background = pygame.image.load("C:/#first_project/GameMaking/pygame_basic/back_ground.png")
 
 # 캐릭터 만들기
-character = pygame.image.load("C:/#first_project/인프런_게임만들기/pygame_basic/rabbit.png")
+character = pygame.image.load("C:/#first_project/GameMaking/pygame_basic/rabbit.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -35,7 +35,7 @@ to_x = 0
 character_speed = 10
 
 # 똥 만들기
-ddong = pygame.image.load("C:/#first_project/인프런_게임만들기/pygame_basic/doll.png")
+ddong = pygame.image.load("C:/#first_project/GameMaking/pygame_basic/doll.png")
 ddong_size = ddong.get_rect().size 
 ddong_width = ddong_size[0] 
 ddong_height = ddong_size[1]
